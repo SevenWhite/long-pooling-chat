@@ -25,7 +25,7 @@ describe('Test long-pooling-chat', function() {
         res.statusCode.should.equal(200);
     });
 
-    //todo this does not work
+    //TODO this does not work
     it('Test subscribe', function* () {
         let res = yield {
             subscribe: request(getUrl('/subscribe')),
